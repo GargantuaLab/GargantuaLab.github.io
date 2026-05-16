@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Support — GargantuaLab</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .support-card {
+      background: var(--card);
+      border: 1px solid var(--card-border);
+      border-radius: 22px; padding: 40px;
+      max-width: 560px;
+    }
+    .support-card p { font-size: 14px; color: var(--muted); line-height: 1.7; }
+
+    .email-link {
+      display: inline-flex; align-items: center; gap: 10px;
+      font-family: 'Syne', sans-serif;
+      font-size: 18px; font-weight: 700;
+      color: var(--accent);
+      text-decoration: none;
+      padding: 16px 20px;
+      background: rgba(106,244,200,0.07);
+      border: 1px solid rgba(106,244,200,0.2);
+      border-radius: 14px;
+      margin: 18px 0 22px;
+      display: block;
+      word-break: break-all;
+      transition: background 0.2s;
+    }
+    .email-link:hover { background: rgba(106,244,200,0.13); color: var(--accent); }
+
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+    .chip {
+      font-size: 12px; padding: 5px 12px;
+      border-radius: 8px;
+      background: var(--faint);
+      border: 1px solid var(--card-border);
+      color: var(--muted);
+    }
+
+    .divider {
+      height: 1px; background: var(--card-border);
+      margin: 24px 0;
+    }
+  </style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="logo">Gargantua<span>Lab</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="apps.html">Apps</a></li>
+    <li><a href="privacy.html">Privacy</a></li>
+    <li><a href="security.html">Security</a></li>
+    <li><a href="support.html" class="active">Support</a></li>
+  </ul>
+</nav>
+
+<main>
+  <span class="section-label anim">We're here to help</span>
+  <h2 class="anim">Support</h2>
+  <p class="page-desc anim">Have a question, need help, or want to request data deletion? Drop us a line.</p>
+
+  <div class="support-card anim">
+    <p>Email us directly and we'll get back to you as soon as possible.</p>
+
+    <a href="mailto:ekfqlwcjswl@gmail.com" class="email-link">
+      ✉️ ekfqlwcjswl@gmail.com
+    </a>
+
+    <div class="divider"></div>
+
+    <p>Please include the following so we can help you faster:</p>
+    <div class="chips">
+      <span class="chip">App name</span>
+      <span class="chip">Device model</span>
+      <span class="chip">iOS version</span>
+      <span class="chip">Description of issue</span>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <p>© 2026 GargantuaLab. All rights reserved.</p>
+  <p>Built with care from a small corner of space 🛸</p>
+</footer>
+</body>
+</html>
